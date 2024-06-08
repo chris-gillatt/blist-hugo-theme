@@ -34,7 +34,7 @@ Blist is a clean and fast blog theme for your Hugo site.
 
 ## Get the theme
 
-Minimum Hugo Version: **0.82.1**
+Minimum Hugo Version: **0.110.0**
 
 Run from the root of your Hugo site:
 
@@ -63,7 +63,7 @@ Then visit `http://localhost:1313/` in your browser to view the example site.
 
 ## Configuring theme to a hugo website
 
-1. Copy `package.json` and `package-lock.json` to the root folder of your the website
+1. Copy `package.json` and `package-lock.json` to the root folder of your website
 2. Run `npm install` to install required packages for theme
 3. Run `npm i -g postcss-cli` to use PostCSS with Hugo build
 4. Set `theme = 'blist'` in config.toml
@@ -135,9 +135,9 @@ Make sure to enable JSON in outputs array.
   home = ["HTML", "RSS", "JSON"]
 ```
 
-### Latex
+### LaTeX
 
-Enable Mathematical options: set `math: true` in your markdown frontmatter
+Enable mathematical options: set `math: true` in your markdown frontmatter
 
 ### Google Analytics
 
@@ -189,6 +189,10 @@ Contributions, issues, and feature requests are welcome! For major changes, plea
           src="https://avatars.githubusercontent.com/u/50796185?v=4" width="117" /><br />ernavdeepkr</a></td>
     <td align="center"><a href="https://github.com/roypeter"><img alt="roypeter"
           src="https://avatars.githubusercontent.com/u/16620459?v=4" width="117" /><br />roypeter</a></td>
+    <td align="center"><a href="https://github.com/janvanveldhuizen"><img alt="janvanveldhuizen"
+      src="https://avatars.githubusercontent.com/u/43573150?v=4" width="117" /><br />janvanveldhuizen</a></td>
+    <td align="center"><a href="https://github.com/jmflaherty"><img alt="jmflaherty"
+      src="https://avatars.githubusercontent.com/u/12985011?v=4" width="117" /><br />jmflaherty</a></td>
   </tr>
 </table>
 
